@@ -92,3 +92,4 @@ if __name__ == '__main__':
     weather.set_measurements(100, 95, 1000)
     time.sleep(1)
     weather.set_measurements(85, 105, 1000)
+    weather.remove_observers(forcast)
